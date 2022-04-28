@@ -1,3 +1,11 @@
+Run this command in the root dir
+
+docker run -it -p 3000:3000 nameOfTheImage
+And then open http://localhost:3000 to view it in your browser.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
