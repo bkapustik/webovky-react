@@ -1,6 +1,6 @@
 Run this command in the root dir
 
-docker run -it -p 3000:3000 nameOfTheImage
+docker run --publish 3000:3000 nameOfTheImage
 And then open http://localhost:3000 to view it in your browser.
 
 
