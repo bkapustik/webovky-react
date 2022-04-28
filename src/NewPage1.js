@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Label } from 'reactstrap';
 
 export default class PageOne extends Component {
   state = {
@@ -14,8 +16,10 @@ change = () => {
 render() {
     return (
       <div>
-        <button onClick={this.change} >Change counter</button>
-        <label id="label">{this.state.counter}</label>
+        <div>
+        <Button color='primary' onClick={this.change} >Change counter</Button>
+        </div>
+        <Label id="label">{this.state.counter}</Label>
       </div>
     );
 }
